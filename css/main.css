@@ -233,12 +233,12 @@ article p{
   padding-left: 3px;
 }
 
-#italicCon{
+.italicCon{
 	font-weight: 300i;
 	font-style: italic;
 }
 
-#highlightCon{
+.highlightCon{
 	background-color: #ffda4a;
 }
 
