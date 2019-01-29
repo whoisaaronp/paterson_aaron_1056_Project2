@@ -1,0 +1,342 @@
+@charset"UTF-8";
+/*CSS Doc*/
+
+/* comments */
+
+.hidden
+{
+	display: none;
+}
+
+/* establish my container width with a paddign of 10px */
+#container{
+	width: 1200px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Merriweather', Georgia, serif;
+	font-weight: 300;
+}
+
+/* dispaly as flexbox */
+#mainHeader{
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #666;
+}
+
+#logo{
+	width: 250px;
+	height: 100px;
+	margin-right: auto;
+}
+
+.navCon{
+	margin-left: auto;
+	margin-bottom: 40px;
+}
+
+#socialCopyCon{
+	width: 160px;
+	margin-left: auto;
+}
+
+#socialMedia ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 10px;
+}
+
+#mainNav{
+	height: 40px;
+
+}
+
+#mainNav li a{
+	-webkit-transition: color 0.1s ease-out;
+  	-moz-transition: color 0.1s ease-out;
+  	-o-transition: color 0.1s ease-out;
+  	transition: color 0.1s ease-out;
+  	font-size: 14px;
+  	color: #666;
+  	display: block;
+	padding: 10px;
+	margin: 0px;
+
+}
+
+#mainNav li a:hover{
+	padding: 10px;
+	color: #000;
+	background-color: #ffda4a;
+}
+
+#mainNav ul{
+	display: flex;
+	flex-direction: row;
+}
+
+#mainNav ul li a{
+	display: block;
+	letter-spacing: 0.03em;
+	text-decoration: none;
+	margin-left: 25px;
+	margin-top: 36px;
+	padding: 10px;
+
+}
+
+/* space the copy nicely */
+article p{
+	margin-bottom: 13px;
+}
+
+.introCon{
+	display: flex;
+	flex-direction: column;
+	margin-top: 60px;
+
+	letter-spacing: 0.03em;
+	margin-left: 0 auto;
+	line-height: 30px;
+}
+
+.titleCon{
+	font-family:'Montserrat', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	margin-bottom: 14px;
+	
+}
+
+.titleCon p{
+	color: #666;
+	font-size: 14px;
+}
+
+/* Parent of the feature content */
+.featureStory{
+	display: flex;
+	flex-direction: row;
+	vertical-align: top;
+	justify-content: space-between;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	text-decoration: none;
+}
+
+.postDate{
+	font-family:'Montserrat', Arial, sans-serif;
+	font-weight: 400;
+	font-size: 12px ;
+	letter-spacing: 0.09em;
+	margin-bottom: 10px;
+	color: #666;
+}
+
+.featuredImage{
+	width: 480px;
+	height: 273px;
+	margin-bottom: 20px;
+}
+
+.featuredImageDesc{
+	width: 700px;
+	height: 200px;
+	font-size: 13px;
+	letter-spacing: 0.03em;
+	line-height: 30px;
+	margin-left: auto;
+		
+}
+
+/* Feature button */
+.butCon{
+	display: block;
+	width: 100px;
+	text-align: center;
+	margin-top: 13px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: normal;
+	
+}
+
+/* Configure for the button by setting up a main class */
+.button{
+	letter-spacing: 0.03em;
+	text-decoration: none;
+	padding: 4px;
+	border-radius: 50px;
+	color: #000;
+}	
+
+.yellow{
+ 	background-color: #ffda4a;
+}
+
+.yellow:hover
+{
+	background-color: #ffe95c;
+
+}
+
+/* mkes the button drop by 2 pixels when you click it. */
+.button:active{
+	position: relative;
+	top: 2px;
+
+}
+.featureTitle{
+	font-family:'Montserrat', Arial, sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.03em;
+	text-decoration: none;
+	font-size: 30px;
+	margin-bottom: 20px;
+
+}
+
+.featureTitle a{
+	text-decoration: none;
+	color: #000;
+
+}
+
+/* #ffda4a the main orange */
+/*#drop-cap::first-letter{
+	-o-inital-letter: 2;
+	-moz-intial-letter: 2;
+ 	-webkit-initial-letter: 2;
+	font-family: 'Merriweather', Georgia, serif;
+	font-weight: 400;
+	initial-letter: 2;
+	color: #ffda4a;
+	font-weight: bold;
+	margin-right: .75em;
+}*/
+
+/* global browser drop cap */
+.firstcharacter{
+  color: #ffda4a;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.italicCon{
+	font-weight: 300i;
+	font-style: italic;
+}
+
+.highlightCon{
+	background-color: #ffda4a;
+}
+
+#wideAngleImage{
+	height: 200px;
+	width: 1200px;
+	background-color: #353445;
+	margin-top: 30px;
+}
+
+.wideImage{
+	display: flex;
+	flex-direction: row;
+	height: 273px;
+	margin-top: 40px;
+	margin-bottom: 90px;
+}
+
+#mainFooter{
+	width: 1200px;
+	height: 10px;
+}
+
+/* Main Footer Flex*/
+.footerMain{
+	text-decoration: none;
+	list-style: none;
+	margin-top: 100px;
+	border-top: 1px solid #666;
+
+}
+
+.footerCon ul{
+	list-style-type: none;
+	font-size: 16px;
+	letter-spacing: 0.09em;
+	text-decoration: none;
+	padding-left: 0px;
+
+}
+
+/* align navigation in a row */
+.footerNav{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-top: 50px;
+	
+	
+}
+/* remove bullet points */
+.footerNav ul li a{
+	text-decoration: none;
+	line-height: 30px;
+	color: #808080;
+	
+	
+}
+
+/* Remove the dots on the links attritubes */
+.footerNav a{
+	color: #ff6347;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+
+}
+
+/* Footer Titles */
+#navigation{
+	text-decoration: none;
+
+}
+
+#navigation h2{
+	font-weight: 600;	
+	margin-bottom: 10px;
+
+}
+
+/* Footer copyright */
+.copyRight{
+	display: block;
+	width: 1200px;
+	margin-top: 40px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	border-top: solid 1px #666;
+
+}
+
+
+.copyRight p{	
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0.01em;
+	color: #808080;
+
+}
+
+
+
