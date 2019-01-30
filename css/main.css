@@ -100,7 +100,6 @@ article p{
 	display: flex;
 	flex-direction: column;
 	margin-top: 60px;
-
 	letter-spacing: 0.03em;
 	margin-left: 0 auto;
 	line-height: 30px;
@@ -324,13 +323,14 @@ article p{
 	width: 1200px;
 	margin-top: 40px;
 	padding-bottom: 10px;
-	padding-top: 20px;
+	padding-top: 15px;
 	border-top: solid 1px #666;
 
 }
 
 
-.copyRight p{	
+.copyRight p{
+font-family: 'Montserrat', Arial, sans-serif;	
 	font-size: 12px;
 	font-weight: 400;
 	letter-spacing: 0.01em;
